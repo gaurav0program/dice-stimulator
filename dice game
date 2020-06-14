@@ -1,0 +1,46 @@
+# let's start Dice simulator game based on python.
+# In this a dice in which every time comes random number in between 1-6
+import random  # importing random
+Name_of_player = input("Entre your name=")  # Name entered by player
+print("Hello Mr/Mrs {} let's play a game".format(Name_of_player))  # print a message with name 
+random_num = random.randint(1,6)  # Random number generated as dice has 6 faces so range 1-6
+if number_1 == 1:
+  print("----------")
+  print("|        |")
+  print("|    0   |")
+  print("|        |")
+  print("----------")
+if number_1 == 2:
+  print("----------")
+  print("|        |")
+  print("| 0    0 |")
+  print("|        |")
+  print("----------")
+if number_1 == 3:
+  print("----------")
+  print("|    0   |")
+  print("|    0   |")
+  print("|    0   |")
+  print("----------")
+if number_1 == 4:
+  print("----------")
+  print("| 0    0 |")
+  print("|        |")
+  print("| 0    0 |")
+  print("----------")
+if number_1 == 5:
+  print("----------")
+  print("| 0    0 |")
+  print("|    0   |")
+  print("| 0    0 |")
+  print("----------")
+if number_1 == 6:
+  print("----------")
+  print("| 0    0 |")
+  print("| 0    0 |")
+  print("| 0    0 |")
+  print("----------")
+else:
+  print("wrong choice dice has only six faces")
+
+
